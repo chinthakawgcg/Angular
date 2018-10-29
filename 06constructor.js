@@ -1,4 +1,8 @@
 ##Constructors allow class to take parameters.
+## Constructors parameteres marked as public (or private, or protected),
+## become class properties accessible as this.ParameterName within the class
+
+## export keyword use to share information between files.
 
 export class Puppy {
   constructor(public name: string){
